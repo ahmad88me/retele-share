@@ -76,7 +76,7 @@
 
 <https://w3id.org/def/retele-share>
       a       owl:Ontology ;
-      rdfs:comment "Ontología para el Catálogo de Recursos Lingüísticos de ReTeLe (http://catalogo.retele.linkeddata.es/)  a partir de Metashare.owl (http://purl.org/net/def/metashare) "@es ;
+      rdfs:comment "Ontología para el Catálogo de Recursos Lingüísticos de ReTeLe (http://catalogo.retele.linkeddata.es/)  a partir de Metashare.owl (http://purl.org/net/def/metashare)"@es ;
       owl:versionInfo "1.0"@es .
 
 <http://purl.org/net/def/metashare#relationInfo>
@@ -323,13 +323,13 @@
                 owl:unionOf (<http://purl.org/net/def/metashare#CorpusAudioInfo> <http://purl.org/net/def/metashare#CorpusImageInfo> <http://purl.org/net/def/metashare#CorpusTextInfo> <http://purl.org/net/def/metashare#CorpusTextNgramInfo> <http://purl.org/net/def/metashare#CorpusTextNumericalInfo> <http://purl.org/net/def/metashare#CorpusVideoInfo> <http://purl.org/net/def/metashare#LanguageDescriptionImageInfo> <http://purl.org/net/def/metashare#LanguageDescriptionInfo> <http://purl.org/net/def/metashare#LanguageDescriptionTextInfo> <http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo>)
               ] .
 
-<http://purl.org/net/def/metashare#audioGenre>
-      a       owl:DatatypeProperty ;
-      rdfs:subPropertyOf <http://purl.org/net/def/metashare#genre> .
-
 <http://purl.org/net/def/metashare#FrameNet>
       a       owl:Class ;
       rdfs:subClassOf <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+
+<http://purl.org/net/def/metashare#audioGenre>
+      a       owl:DatatypeProperty ;
+      rdfs:subPropertyOf <http://purl.org/net/def/metashare#genre> .
 
 <http://purl.org/net/def/metashare#LingualityType>
       a       owl:Class .
